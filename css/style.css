@@ -1,4 +1,4 @@
-.container-fluid{
+.container{
     background-color: black;
     color: black;
     padding-left: 0px;
@@ -6,18 +6,25 @@
 }
 
 .element{
+    padding: 0.5rem 1rem;
     background-color: green;
 }
 
 .html{
+    padding: 0.5rem 1rem;
     background-color: red;
 }
 
 .header{
+    padding: 0.5rem 1rem;
     background-color: blue;
 }
 
 h1, h2, h3, h4, h5, h6{
     display:flex;
     justify-content: center;
+}
+
+.navbar{
+    background-color: yellow;
 }
