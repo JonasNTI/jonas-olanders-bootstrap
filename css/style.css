@@ -1,5 +1,4 @@
 .container{
-    background-color: black;
     color: black;
     padding-left: 0px;
     padding-right: 0px;
@@ -7,22 +6,33 @@
 
 .element{
     padding: 1.5rem 20rem;
-    background-color: green;
 }
 
 .html{
     padding: 1.5rem 20rem;
-    background-color: red;
 }
 
 .header{
     padding: 0.5rem 1rem;
-    background-color: blue;
 }
 
 h1, h2, h3, h4, h5, h6{
     display:flex;
     justify-content: center;
+}
+
+.attributes{
+    display: flex;
+}
+.ID{
+    flex-grow:1;
+    height:100px;
+    margin: 2.5%;
+}
+.class{
+    flex-grow:1;
+    height:100px;
+    margin: 2.5%;
 }
 
 .navbar{
