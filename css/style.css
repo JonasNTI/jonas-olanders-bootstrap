@@ -1,40 +1,78 @@
-.container{
-    color: black;
-    padding-left: 0px;
-    padding-right: 0px;
+h1, h2{
+    display:flex;
+    justify-content: center;
 }
 
 .element{
-    padding: 1.5rem 20rem;
+    padding: 1.5rem 20rem;  /**Trycker ihop texten**/
 }
 
 .html{
     padding: 1.5rem 20rem;
 }
 
-.header{
-    padding: 0.5rem 1rem;
-}
-
-h1, h2, h3, h4, h5, h6{
-    display:flex;
-    justify-content: center;
-}
-
 .attributes{
-    display: flex;
+    display: flex;  /**För att kunna lägga förklaring till ID och class brevid varandra.**/
 }
 .ID{
     flex-grow:1;
     height:100px;
-    margin: 2.5%;
+    margin: 5%;
 }
 .class{
     flex-grow:1;
     height:100px;
-    margin: 2.5%;
+    margin: 5%;
 }
 
-.navbar{
-    background-color: yellow;
+.meta{
+    padding: 1.5rem 20rem;
+}
+
+.responsive{
+    padding: 1.5rem 20rem;
+}
+
+.http-https{
+    display: flex;  /**Gör så jag kan lägga förklaringarna till http och https brevid varandra.**/
+}
+
+.http{
+    flex-grow:1;
+    height:100px;
+    margin: 5%;
+}
+
+.https{
+    flex-grow:1;
+    height:100px;
+    margin: 5%;
+}
+
+.data{
+    padding: 1.5rem 15rem;
+}
+
+.cdn{
+    padding: 1.5rem 15rem;
+}
+
+.localbootsstrap{
+    padding: 1.5rem 15rem;
+}
+
+.jquery{
+    padding: 1.5rem 15rem;
+}
+
+.flexbox{
+    padding: 1.5rem 15rem;
+}
+
+.grid{
+    padding: 1.5rem 15rem;
+}
+
+.snippets{
+    padding: 1.5rem 15rem;
 }

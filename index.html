@@ -1,68 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<div class="container">
-    <nav class="navbar">
-        <p>Hej</p>
-        <p>hej</p>
-        <p>Hejdå</p>
-        <p>hejdå</p>
-    </nav>
-    <hr>
-    <div class="element">
-        <h1>Element</h1>
-        <p>Ett element i html består av en starttagg och en sluttagg som har någon typ av kontent mellan varandra, till exempel en bild eller någon text</p>
-    </div>
-    <hr>
-    <div class="html">
-        <h1>HTML</h1>
-        <p>HTML är en förkortning av HyperText Markup Language.
-            Tillsammans med TCP/IP och HTTP utgör HTML standarden för webben.
-            HTML är det främsta programmeringsspråket som används för att skapa hemsidor</p>
-    </div>
-        <hr>
-        <h1>Attribut</h1>
-    <div class="attributes">
-        <div class="ID">
-            <h2>ID</h2>
-            <p>ID är ett av två attribut i html som används för i princip alla HTML-taggar. Just ID används unik identifiering av ett element på en enstaka webbsida. Samma ID-värde får därför endast finnas för ett specifikt element på hela webbsidan.</p>
-        </div>
-        <div class="class">
-            <h2>Class</h2>
-            <p>Class är det andra attributet som används för i stort sett alla HTML-taggar. Till skillnad från ID attributet kan class attributet finnas på flera element på en och samma webbsida</p>
-        </div>
-    </div>
-    <hr>
-    <h1>Meta</h1>
-    <p>Meta är del av något som inte är synligt men som påverkar egenskaper.</p>
-
-    <h1>Responsive</h1>
-
-    <h1>http</h1>
-
-    <h1>https</h1>
-
-    <h1>compressed data</h1>
-
-    <h1>CDN</h1>
-
-    <h1>local bootstrap</h1>
-
-    <h1>JQuery</h1>
-
-    <h1>Flexbox</h1>
-
-    <h1>Grid</h1>
-
-    <h1>Code snippets</h1>
-</div>
-
-</body>
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">  <!--Innehåller all synlig text på sidan, class som finns med i bootstrap filen-->
+			<hr>  <!--Rader mellan de olika förklarningarn-->
+			<div class="element">
+				<h1>Element</h1>
+				<p>Ett element i html består av en starttagg och en sluttagg som har någon typ av kontent mellan varandra, till exempel en bild eller någon text</p>
+			</div>
+			<hr>
+			<div class="html">
+				<h1>HTML</h1>
+				<p>HTML är en förkortning av HyperText Markup Language.
+					Tillsammans med TCP/IP och HTTP utgör HTML standarden för webben.
+					HTML är det främsta programmeringsspråket som används för att skapa hemsidor
+				</p>
+				<img class="img" src="pictures/HTML-Logo.png" alt="error 404" width="75%" height="75%">  <!--Testade att lägga till en bild, blev bara en. Använder img klassen som finns i bootstrap-->
+			</div>
+			<hr>
+			<h1>Attribut</h1>
+			<div class="attributes"> <!--Använder för att lägga de två attributerna brevid varandra-->
+				<div class="ID">
+					<h2>ID</h2>
+					<p>ID är ett av två attribut i html som används för i princip alla HTML-taggar. Just ID används unik identifiering av ett element på en enstaka webbsida. Samma ID-värde får därför endast finnas för ett specifikt element på hela webbsidan.</p>
+				</div>
+				<div class="class">
+					<h2>Class</h2>
+					<p>Class är det andra attributet som används för i stort sett alla HTML-taggar. Till skillnad från ID attributet kan class attributet finnas på flera element på en och samma webbsida</p>
+				</div>
+			</div>
+			<hr>
+			<div class="meta">
+				<h1>Meta</h1>
+				<p>Meta är del av något som inte är synligt men som påverkar egenskaper. Meta-märken används inom <'HEAD'> i dokument för att ange information angående sidan. T.ex. så kan det vara info om copyright, sökord, innehåll med mera.</p>
+			</div>
+			<hr>
+			<div class="responsive">
+				<h1>Responsive</h1>
+				<p>Att en webbsida är responsiv innebär att dess layout automatiskt kan anpassa sig efter storleken på skärmen som används. Responsiv design på webbsidor har blivit allt viktigare i och med det ökade mobilsurfandet eftersom mobiltelefoner har mycket mindre skärmar än vad datorer har.</p>
+			</div>
+			<hr>
+			<div class="http-https">    <!--Använder för att lägga förklaringarna till http och https brevid varandra.-->
+				<div class="http">
+					<h1>HTTP</h1>
+					<p>HTTP är en förkortning för HyperText Transfer Protocol och används för att en webbläsare ska kunna hämta information från en webbserver.</p>
+				</div>
+				<div class="https">
+					<h1>HTTPS</h1>
+					<p>HTTPS är nyare än HTTP och används idag av allt fler hemsidor. Orsaken är att HTTPS är mycket säkrare än HTTP i och med att all information som skickas krypteras för att hindra obehöriga tredjeparter att komma åt den</p>
+				</div>
+			</div>
+			<hr>
+			<div class="data">
+				<h1>Compressed data</h1>
+				<p>Datakomprimering är ett sätt för att kunna optimera webbsidor så att de bland annat laddar snabbt och svarar snabbt när man interagerar med dem. När man komprimerar datan gör det även så att webbsidan eller programmet kräver så lite som möjligt av användarens enhet vare sig det t.ex. är en dator eller telefon</p>
+			</div>
+			<hr>
+			<div class="cdn">
+				<h1>CDN</h1>
+				<p>CDN är en förkortning för Content Delivery Network och används av företav världen över för att nå målgrupper i många länder. Exempel på företag som använder sig av CDN är Amazon, Facebook och Netflix. Bland annat dessa stora webbplatser skickar innehåll världen över men detta gör det inte bara från en enda server eller plats. Istället använder de så kallade proxyservrar som är geografiskt distribuerade för att minska belastningen på företagens webbservrar. Det är dessa utspridda proxyservrar som är kända som Content Delivery Networks (CDN)</p>
+			</div>
+			<hr>
+			<div class="localbootstrap">
+				<h1>local bootstrap</h1>
+				<p></p>
+			</div>
+			<hr>
+			<div class="jquery">
+				<h1>JQuery</h1>
+				<p>JQuery är ett javascriptbibliotek som förenklar bland annat HTML modifikation. JQuery har inbyggda funktioner som man kan använda dels för att minimera antal rader kod, dels för att skapa snygga effekter.</p>
+			</div>
+			<hr>
+			<div class="flexbox">
+				<h1>Flexbox</h1>
+				<p>Flexbox används för att göra en webbsida 'flexibel' precis som namnet säger. Webbsidor gjorda med flexbox är vanligtvis anpassade till olika storlek på skärmar. Om man vill bestämma var på sidan något ska vara kommer flexbox också in och är ett riktigt bra verktyg.</p>
+			</div>
+			<hr>
+			<div class="grid">
+				<h1>Grid</h1>
+				<p>Om man vill dela in en container i ett rutnät så kan man använda en grid-layout. Med grid-layouten kan man bestämma hur många rader och kolumner som man vill att sitt rutnät ska bestå av</p>
+			</div>
+			<hr>
+			<div class="snippets">
+				<h1>Code snippets</h1>
+				<p>Code snippet är en liten bit text eller källkod som man kan skriva in i koden till antingen ett program eller en webbsida. Det finns olika typer av snippets som används för olika saker, till exempel så finns det HTML snippets som kan användas för bland annat webbformulär eller textblock.</p>
+			</div>
+			<hr>
+		</div>
+	</body>
 </html>
